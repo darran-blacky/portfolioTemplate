@@ -27,3 +27,19 @@ body {
 .portfolio-item {
   margin-bottom: 30px;
 }
+
+.main {
+  padding: 3em 5%;
+}
+
+.dark{
+  
+  background: #fafafa;
+  border-bottom: #dddddd solid 1px;
+  padding: 3em 1.5em;
+
+  -webkit-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+
+}
