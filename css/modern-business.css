@@ -30,6 +30,8 @@ body {
 
 .main {
   padding: 3em 5%;
+    overflow: hidden;
+    border-top: #FFF solid 1px;
 }
 
 .dark{
@@ -41,5 +43,45 @@ body {
   -webkit-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
   box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+
+}
+.intro {
+  font-size: 25px;
+  font-size: 2.1rem;
+  color: #666666;
+  line-height: 1.3em;
+  margin-bottom: 0.7em;
+  clear: both;
+}
+
+.h1 {
+  margin-bottom: 0.1em;
+  font-size: 48px;
+  font-size: 4.8rem;
+  line-height: 1.2em;
+  font-family: "neosans regular", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+  letter-spacing: -0.07em;
+}
+
+.snaps {
+  border-bottom: #dddddd 1px solid;
+  padding-top: 3em;
+  max-width: 540px;
+  margin: auto;
+}
+
+.light{
+   overflow: hidden;
+   /* border-top: #FFF solid 1px; */
+   padding: 3em 1.5em;
+
+  -webkit-box-shadow: inset 0px 30px 30px -30px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0px 30px 30px -30px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0px 30px 30px -30px rgba(0, 0, 0, 0.05);
+  border-bottom: #dddddd solid 1px;
+}
+
+.test{
+  background: #fafafa;
 
 }
