@@ -581,3 +581,7 @@ header.masthead .device-container .screen img {
         -o-transition: border .2s ease-in-out;
         transition: border .2s ease-in-out;
     }
+    #mainNav .navbar-nav>li>a.active {
+      color: #fdcc52!important;
+      background-color: transparent;
+  }
