@@ -585,3 +585,12 @@ header.masthead .device-container .screen img {
       color: #fdcc52!important;
       background-color: transparent;
   }
+  .qwerty{
+    /* font-family: futura-pt; */
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    line-height: 1.6em;
+    color: #1f1f1f;
+  }
